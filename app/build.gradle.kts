@@ -6,7 +6,7 @@ plugins {
 
 android {
   namespace = "com.github.takahirom.roborazzi.compare.on.github.comment"
-  compileSdk = 33
+  compileSdk = 34
 
   defaultConfig {
     applicationId = "com.github.takahirom.roborazzi.compare.on.github.comment"
