@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android Test Night")
+                    Greeting("Android Test Morning")
                 }
             }
         }
@@ -48,7 +48,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         topBar = {
             TopAppBar(
                 title = {
-                    Text(text = "Android Test Night #10")
+                    Text(text = "Android Test Morning #10")
                 },
                 colors = TopAppBarDefaults.smallTopAppBarColors(containerColor = MaterialTheme.colorScheme.primary)
             )
@@ -67,7 +67,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                     painter = painterResource(id = R.drawable.ic_launcher_background),
                     contentDescription = "Android Logo",
                     modifier = Modifier
-                        .padding(16.dp)
+                        .padding(12.dp)
                         .testTag("android_logo")
                 )
                 Image(
@@ -86,6 +86,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     RoborazziscreenshotcompareongithubcommentsampleTheme {
-        Greeting("Android Test Night")
+        Greeting("Android Test Morning")
     }
 }
